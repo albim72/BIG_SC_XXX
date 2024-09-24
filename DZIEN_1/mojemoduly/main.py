@@ -4,7 +4,10 @@ from dane import nrfilii as nf
 from dane import book as bk
 
 from funkcje.funkcja_kol import czytaj_liste, czytaj_slownik
+from  funkcje.informacja.message import msg
 
+
+print(msg(34,"Kilka słów o kolekcjach! "))
 #kopiowanie linii/bloku tekstu -> CTRL+D
 print("to jest pierwszy program w PyCharm")
 print("___ kolekcje z modułu: dane ___")
